@@ -111,6 +111,9 @@ li {
     line-height: 130%; /* 1.4625rem */
     letter-spacing: 0.0225rem;
   }
+  .abcd{
+
+  }
   .feature {
     display: flex;
     margin-top: 40px;
@@ -783,13 +786,17 @@ li {
   
   .landing-frame1000001984 {
     gap : 54px;
-    top : 96px;
+    top : 46px;
+    margin-left: 96px;
     left : 107px;
-    width : 1226px;
+    width : 80vw;
+    /* max-width: auto; */
     display : flex;
-    position : absolute;
+    position : relative;
     align-items : center;
     flex-direction : column;
+    text-align: center;
+    /* justify-content: space-; */
     }
     .landing-title4 {
     gap : 4px;
